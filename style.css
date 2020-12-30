@@ -1,0 +1,79 @@
+[class^="ejercicio"] {
+  border-bottom: 1px solid #000;
+  padding-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.fa-arrow-down {
+  color: steelblue;
+  margin: 1rem 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.ejercicio1 {
+  height: 300px;
+}
+
+.ejercicio1 h1 {
+  color: red;
+}
+
+.ejercicio1 h1.p-absolute {
+  bottom: 0;
+  left: 200px;
+}
+
+.border-green {
+  border: 2px solid green;
+}
+
+.border-green.p-relative {
+  left: 50px;
+}
+
+.ejercicio3 .p-relative {
+  width: 400px;
+  left: 0;
+  height: 200px;
+}
+
+.ejercicio3 .p-absolute {
+  right: 0;
+  top: 75px;
+  height: 100px;
+}
+
+.bc-green {
+  background-color: rgb(47, 173, 47, 1);
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.ejercicio5 img {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.ejercicio5 .p-absolute {
+  top: 0;
+  margin-left: 2em;
+}
